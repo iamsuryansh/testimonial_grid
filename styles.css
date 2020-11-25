@@ -112,7 +112,7 @@ body {
 .daniel {
   background-image: url(images/bg-pattern-quotation.svg);
   background-repeat: no-repeat;
-  background-position: 80% top;
+  background-position: 79% top;
 }
 
 @media only screen and (max-width: 600px) {
