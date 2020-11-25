@@ -1,0 +1,132 @@
+html, body{
+  height: 100%;
+}
+body {
+  width: 80%;
+  margin: auto;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background-color: hsl(210, 46%, 95%);
+}
+
+.testimonial {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 18px hsl(0, 0%, 81%);
+}
+
+.daniel {
+  background-color: hsl(263, 55%, 52%);
+  color: white;
+
+}
+
+.jonathan {
+  background-color: hsl(217, 19%, 35%);
+  color: white;
+}
+
+.patrick {
+  background-color: hsl(219, 29%, 14%);
+  color: white;
+}
+
+.kira, .jeanette {
+  background-color: white;
+
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items:center;
+
+  }
+
+.column-one {
+  display: flex;
+  flex-direction: column;
+  flex: 64%;
+  justify-content: flex-start;
+
+}
+
+
+.column-two {
+  display: flex;
+  flex: 36%;
+  flex-basis: 11.11%;
+  justify-content: space-around;
+}
+
+.container-row-one {
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.container-row-two {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.profile-pic {
+  border-radius: 100%;
+  float: left;
+  height: 30px;
+  width: 30px;
+}
+
+.testimonial-title {
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 1.1rem;
+
+}
+
+.username {
+  font-weight: 500;
+  display: block;
+  margin-top: 10px;
+  margin-left: 45px;
+  font-size: 0.9rem;
+
+}
+
+.designation {
+  opacity: 50%;
+  font-size: 0.7rem;
+  margin-left: 45px;
+}
+
+.testimonial-summary {
+  opacity: 70%;
+  font-size: 0.8rem;
+}
+
+.daniel {
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 80% top;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .container-row-one, .container-row-two {
+    flex-direction: column;
+  }
+
+  .daniel {
+    margin-top: 30px;
+    background-position: 90% top;
+  }
+  .kira {
+    margin-bottom: 30px;
+  }
+}
